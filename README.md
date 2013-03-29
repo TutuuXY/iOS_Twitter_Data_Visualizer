@@ -7,8 +7,8 @@ iOS App. Built a data visualizer for Twitter, based on the location of the most 
 
 The app will continuously poll for new tweets, and display them on the map when they are received. If the user taps on one of the pins, a small view should display some information about the tweet, and a button to take them to a separate view that displays more information about the tweet (users twitter handle, the tweet text, timestamp, user avatar, etc.). On this separate view, the user have the option of favoriting or retweeting that particular tweet.
 
-\includegraphics[keepaspectratio,width=\textwidth, height=.8\textheight](https://raw.github.com/TutuuXY/Snapshots_for_Readmes_of_all_projects/master/iOS_Twitter_Data_Visualizer.jpg)
-![My image]([height=2in]https://raw.github.com/TutuuXY/Snapshots_for_Readmes_of_all_projects/master/iOS_Twitter_Data_Visualizer2.jpg)
+![My image](https://raw.github.com/TutuuXY/Snapshots_for_Readmes_of_all_projects/master/iOS_Twitter_Data_Visualizer.jpg)
+![My image2](https://raw.github.com/TutuuXY/Snapshots_for_Readmes_of_all_projects/master/iOS_Twitter_Data_Visualizer2.jpg)
 
 Snapshot of the app.
 
