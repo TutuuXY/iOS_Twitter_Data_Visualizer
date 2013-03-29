@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28FE0BC516E00DB300789ADE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FE0BC416E00DB300789ADE /* UIKit.framework */; };
+		28FE0BC716E00DB300789ADE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FE0BC616E00DB300789ADE /* Foundation.framework */; };
+		28FE0BC916E00DB300789ADE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FE0BC816E00DB300789ADE /* CoreGraphics.framework */; };
+		28FE0BCB16E00DB300789ADE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FE0BCA16E00DB300789ADE /* CoreData.framework */; };
+		28FE0BD116E00DB300789ADE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 28FE0BCF16E00DB300789ADE /* InfoPlist.strings */; };
+		28FE0BD316E00DB300789ADE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FE0BD216E00DB300789ADE /* main.m */; };
+		28FE0BD716E00DB300789ADE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FE0BD616E00DB300789ADE /* AppDelegate.m */; };
+		28FE0BD916E00DB300789ADE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 28FE0BD816E00DB300789ADE /* Default.png */; };
+		28FE0BDB16E00DB300789ADE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28FE0BDA16E00DB300789ADE /* Default@2x.png */; };
+		28FE0BDD16E00DB300789ADE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28FE0BDC16E00DB300789ADE /* Default-568h@2x.png */; };
+		28FE0BE016E00DB300789ADE /* MapDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 28FE0BDE16E00DB300789ADE /* MapDemo.xcdatamodeld */; };
+		28FE0BE716E00DF600789ADE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FE0BE616E00DF600789ADE /* CoreLocation.framework */; };
+		28FE0BE916E00DFD00789ADE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FE0BE816E00DFD00789ADE /* MapKit.framework */; };
+		28FE0BEC16E00E2000789ADE /* PlaceMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FE0BEB16E00E2000789ADE /* PlaceMapViewController.m */; };
+		28FE0BEF16E00E6F00789ADE /* Place.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FE0BEE16E00E6F00789ADE /* Place.m */; };
+		395FD41716F7E8D20076B02B /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 395FD41616F7E8D20076B02B /* Accounts.framework */; };
+		395FD41916F7E8D80076B02B /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 395FD41816F7E8D80076B02B /* Twitter.framework */; };
+		395FD42416F97A7A0076B02B /* ButtonTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 395FD42016F97A7A0076B02B /* ButtonTableViewController.m */; };
+		395FD42516F97A7A0076B02B /* MapPin.m in Sources */ = {isa = PBXBuildFile; fileRef = 395FD42216F97A7A0076B02B /* MapPin.m */; };
+		39FC835017016CC200500858 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39FC834F17016CC200500858 /* Social.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		28FE0BC116E00DB300789ADE /* TwitterMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28FE0BC416E00DB300789ADE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		28FE0BC616E00DB300789ADE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		28FE0BC816E00DB300789ADE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28FE0BCA16E00DB300789ADE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		28FE0BCE16E00DB300789ADE /* TwitterMap-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TwitterMap-Info.plist"; sourceTree = "<group>"; };
+		28FE0BD016E00DB300789ADE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		28FE0BD216E00DB300789ADE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		28FE0BD416E00DB300789ADE /* TwitterMap-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TwitterMap-Prefix.pch"; sourceTree = "<group>"; };
+		28FE0BD516E00DB300789ADE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		28FE0BD616E00DB300789ADE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		28FE0BD816E00DB300789ADE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		28FE0BDA16E00DB300789ADE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		28FE0BDC16E00DB300789ADE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		28FE0BDF16E00DB300789ADE /* MapDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MapDemo.xcdatamodel; sourceTree = "<group>"; };
+		28FE0BE616E00DF600789ADE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		28FE0BE816E00DFD00789ADE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		28FE0BEA16E00E2000789ADE /* PlaceMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceMapViewController.h; sourceTree = "<group>"; };
+		28FE0BEB16E00E2000789ADE /* PlaceMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceMapViewController.m; sourceTree = "<group>"; };
+		28FE0BED16E00E6F00789ADE /* Place.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Place.h; sourceTree = "<group>"; };
+		28FE0BEE16E00E6F00789ADE /* Place.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Place.m; sourceTree = "<group>"; };
+		395FD41616F7E8D20076B02B /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		395FD41816F7E8D80076B02B /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		395FD42016F97A7A0076B02B /* ButtonTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonTableViewController.m; sourceTree = "<group>"; };
+		395FD42116F97A7A0076B02B /* ButtonTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonTableViewController.h; sourceTree = "<group>"; };
+		395FD42216F97A7A0076B02B /* MapPin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapPin.m; sourceTree = "<group>"; };
+		395FD42316F97A7A0076B02B /* MapPin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapPin.h; sourceTree = "<group>"; };
+		39FC834F17016CC200500858 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28FE0BBE16E00DB300789ADE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39FC835017016CC200500858 /* Social.framework in Frameworks */,
+				28FE0BE716E00DF600789ADE /* CoreLocation.framework in Frameworks */,
+				395FD41916F7E8D80076B02B /* Twitter.framework in Frameworks */,
+				395FD41716F7E8D20076B02B /* Accounts.framework in Frameworks */,
+				28FE0BE916E00DFD00789ADE /* MapKit.framework in Frameworks */,
+				28FE0BC516E00DB300789ADE /* UIKit.framework in Frameworks */,
+				28FE0BC716E00DB300789ADE /* Foundation.framework in Frameworks */,
+				28FE0BC916E00DB300789ADE /* CoreGraphics.framework in Frameworks */,
+				28FE0BCB16E00DB300789ADE /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28FE0BB816E00DB300789ADE = {
+			isa = PBXGroup;
+			children = (
+				39FC834F17016CC200500858 /* Social.framework */,
+				28FE0BCC16E00DB300789ADE /* TwitterMap */,
+				28FE0BC316E00DB300789ADE /* Frameworks */,
+				28FE0BC216E00DB300789ADE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28FE0BC216E00DB300789ADE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28FE0BC116E00DB300789ADE /* TwitterMap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28FE0BC316E00DB300789ADE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				395FD41816F7E8D80076B02B /* Twitter.framework */,
+				395FD41616F7E8D20076B02B /* Accounts.framework */,
+				28FE0BE816E00DFD00789ADE /* MapKit.framework */,
+				28FE0BE616E00DF600789ADE /* CoreLocation.framework */,
+				28FE0BC416E00DB300789ADE /* UIKit.framework */,
+				28FE0BC616E00DB300789ADE /* Foundation.framework */,
+				28FE0BC816E00DB300789ADE /* CoreGraphics.framework */,
+				28FE0BCA16E00DB300789ADE /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		28FE0BCC16E00DB300789ADE /* TwitterMap */ = {
+			isa = PBXGroup;
+			children = (
+				395FD42316F97A7A0076B02B /* MapPin.h */,
+				395FD42216F97A7A0076B02B /* MapPin.m */,
+				28FE0BD516E00DB300789ADE /* AppDelegate.h */,
+				28FE0BD616E00DB300789ADE /* AppDelegate.m */,
+				28FE0BED16E00E6F00789ADE /* Place.h */,
+				28FE0BEE16E00E6F00789ADE /* Place.m */,
+				395FD42116F97A7A0076B02B /* ButtonTableViewController.h */,
+				395FD42016F97A7A0076B02B /* ButtonTableViewController.m */,
+				28FE0BEA16E00E2000789ADE /* PlaceMapViewController.h */,
+				28FE0BEB16E00E2000789ADE /* PlaceMapViewController.m */,
+				28FE0BDE16E00DB300789ADE /* MapDemo.xcdatamodeld */,
+				28FE0BCD16E00DB300789ADE /* Supporting Files */,
+			);
+			name = TwitterMap;
+			path = MapDemo;
+			sourceTree = "<group>";
+		};
+		28FE0BCD16E00DB300789ADE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28FE0BCE16E00DB300789ADE /* TwitterMap-Info.plist */,
+				28FE0BCF16E00DB300789ADE /* InfoPlist.strings */,
+				28FE0BD216E00DB300789ADE /* main.m */,
+				28FE0BD416E00DB300789ADE /* TwitterMap-Prefix.pch */,
+				28FE0BD816E00DB300789ADE /* Default.png */,
+				28FE0BDA16E00DB300789ADE /* Default@2x.png */,
+				28FE0BDC16E00DB300789ADE /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28FE0BC016E00DB300789ADE /* TwitterMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28FE0BE316E00DB300789ADE /* Build configuration list for PBXNativeTarget "TwitterMap" */;
+			buildPhases = (
+				28FE0BBD16E00DB300789ADE /* Sources */,
+				28FE0BBE16E00DB300789ADE /* Frameworks */,
+				28FE0BBF16E00DB300789ADE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TwitterMap;
+			productName = MapDemo;
+			productReference = 28FE0BC116E00DB300789ADE /* TwitterMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28FE0BB916E00DB300789ADE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Mason Silber";
+			};
+			buildConfigurationList = 28FE0BBC16E00DB300789ADE /* Build configuration list for PBXProject "TwitterMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 28FE0BB816E00DB300789ADE;
+			productRefGroup = 28FE0BC216E00DB300789ADE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28FE0BC016E00DB300789ADE /* TwitterMap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28FE0BBF16E00DB300789ADE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28FE0BD116E00DB300789ADE /* InfoPlist.strings in Resources */,
+				28FE0BD916E00DB300789ADE /* Default.png in Resources */,
+				28FE0BDB16E00DB300789ADE /* Default@2x.png in Resources */,
+				28FE0BDD16E00DB300789ADE /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28FE0BBD16E00DB300789ADE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28FE0BD316E00DB300789ADE /* main.m in Sources */,
+				28FE0BD716E00DB300789ADE /* AppDelegate.m in Sources */,
+				28FE0BE016E00DB300789ADE /* MapDemo.xcdatamodeld in Sources */,
+				28FE0BEC16E00E2000789ADE /* PlaceMapViewController.m in Sources */,
+				28FE0BEF16E00E6F00789ADE /* Place.m in Sources */,
+				395FD42416F97A7A0076B02B /* ButtonTableViewController.m in Sources */,
+				395FD42516F97A7A0076B02B /* MapPin.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		28FE0BCF16E00DB300789ADE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28FE0BD016E00DB300789ADE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28FE0BE116E00DB300789ADE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		28FE0BE216E00DB300789ADE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28FE0BE416E00DB300789ADE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MapDemo/TwitterMap-Prefix.pch";
+				INFOPLIST_FILE = "MapDemo/TwitterMap-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = TwitterMap;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		28FE0BE516E00DB300789ADE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MapDemo/TwitterMap-Prefix.pch";
+				INFOPLIST_FILE = "MapDemo/TwitterMap-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = TwitterMap;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28FE0BBC16E00DB300789ADE /* Build configuration list for PBXProject "TwitterMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28FE0BE116E00DB300789ADE /* Debug */,
+				28FE0BE216E00DB300789ADE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28FE0BE316E00DB300789ADE /* Build configuration list for PBXNativeTarget "TwitterMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28FE0BE416E00DB300789ADE /* Debug */,
+				28FE0BE516E00DB300789ADE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		28FE0BDE16E00DB300789ADE /* MapDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				28FE0BDF16E00DB300789ADE /* MapDemo.xcdatamodel */,
+			);
+			currentVersion = 28FE0BDF16E00DB300789ADE /* MapDemo.xcdatamodel */;
+			path = MapDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 28FE0BB916E00DB300789ADE /* Project object */;
+}
